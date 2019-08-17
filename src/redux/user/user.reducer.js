@@ -18,7 +18,7 @@ switch (action.type) {
 	return state;
 }
 
-}
+};
 
 
 export default userReducer;
