@@ -14,12 +14,8 @@
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-<<<<<<< HEAD
     "reselect": "^4.0.0",
     "styled-components": "^4.4.0"
-=======
-    "reselect": "^4.0.0"
->>>>>>> 90d2013ef6da94b10d99906c6feeaedeb2debeb6
   },
   "scripts": {
     "start": "react-scripts start",
