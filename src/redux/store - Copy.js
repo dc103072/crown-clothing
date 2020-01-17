@@ -3,13 +3,13 @@ import { createStore, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 import { persistStore} from 'redux-persist';
 
-import thunk from 'redux-thunk';
+//import thunk from 'redux-thunk';
 
 import rootReducer from './root-reducer';
 
 
-const middlewares = [thunk];
-//const middlewares = [];
+//const middlewares = [thunk];
+const middlewares = [];
 
 
 if (process.env.NODE_ENV === 'development')  {
